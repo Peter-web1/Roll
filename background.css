@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+	background-color:#050505;
+	height: 300px;
+	width: 900px;
+	margin: 50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+.text{
+	height:200px;
+	width:700px;
+	background:url(travel.gif);
+	background-size:700px 200px;
+	font-size:180px;
+	font-weight: bold;
+	font-style: italic;
+	font-family:'Raleway',sans-serif;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
